@@ -1,0 +1,51 @@
+﻿Build started 18/04/2017 16:53:33.
+     1>Project "C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Coursework\Coursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Studentmain.cpp
+         Studentmain.cpp
+     1>c:\users\michael\desktop\courseworkgp\coursework\coursework\coursework\studentmain.cpp(113): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\michael\desktop\courseworkgp\coursework\coursework\coursework\studentmain.cpp(137): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>c:\users\michael\desktop\courseworkgp\coursework\coursework\coursework\studentmain.cpp(147): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>c:\users\michael\desktop\courseworkgp\coursework\coursework\coursework\studentmain.cpp(237): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>c:\users\michael\desktop\courseworkgp\coursework\coursework\coursework\studentmain.cpp(237): warning C4309: 'argument' : truncation of constant value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Debug\Coursework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Debug\Coursework.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Debug\Coursework.lib" /MACHINE:X86 Debug\cCamera.obj
+         Debug\cColours.obj
+         Debug\cCube.obj
+         Debug\cEnemy.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cInputMgr.obj
+         Debug\cLaser.obj
+         Debug\cLight.obj
+         Debug\cMaterial.obj
+         Debug\cModel.obj
+         Debug\cModelLoader.obj
+         Debug\cPlayer.obj
+         Debug\cPyramid.obj
+         Debug\cShapes.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSphere.obj
+         Debug\cStarfield.obj
+         Debug\cTexture.obj
+         Debug\cTriangle.obj
+         Debug\cWNDManager.obj
+         Debug\GameConstants.obj
+         Debug\Studentmain.obj
+         Debug\tardisWarsGame.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         "Libraries\glm-0.3.2Lib.lib"
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+         Coursework.vcxproj -> C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Debug\Coursework.exe
+     1>Done Building Project "C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Coursework\Coursework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02

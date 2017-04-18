@@ -1,0 +1,95 @@
+﻿Build started 18/04/2017 16:55:45.
+     1>Project "C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Coursework\Coursework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cCamera.cpp cColours.cpp cCube.cpp cEnemy.cpp cFont.cpp cFontMgr.cpp cInputMgr.cpp cLaser.cpp cLight.cpp cMaterial.cpp cModel.cpp cModelLoader.cpp cPlayer.cpp cPyramid.cpp cShapes.cpp cSound.cpp cSoundMgr.cpp cSphere.cpp cStarfield.cpp cTexture.cpp cTriangle.cpp cWNDManager.cpp GameConstants.cpp Studentmain.cpp tardisWarsGame.cpp windowOGL.cpp
+         cCamera.cpp
+         cColours.cpp
+         cCube.cpp
+         cEnemy.cpp
+         cFont.cpp
+     1>cFont.cpp(69): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+     1>cFont.cpp(82): warning C4244: 'argument' : conversion from 'FTGL_DOUBLE' to 'GLfloat', possible loss of data
+         cFontMgr.cpp
+         cInputMgr.cpp
+         cLaser.cpp
+         cLight.cpp
+         cMaterial.cpp
+         cModel.cpp
+         cModelLoader.cpp
+     1>cModelLoader.cpp(36): warning C4244: '=' : conversion from 'GLsizei' to 'GLfloat', possible loss of data
+     1>cModelLoader.cpp(37): warning C4244: '=' : conversion from 'GLsizei' to 'GLfloat', possible loss of data
+         cPlayer.cpp
+         cPyramid.cpp
+         cShapes.cpp
+         cSound.cpp
+         cSoundMgr.cpp
+         cSphere.cpp
+         cStarfield.cpp
+     1>cStarfield.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>cStarfield.cpp(89): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>cStarfield.cpp(93): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>cStarfield.cpp(97): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>cStarfield.cpp(101): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>cStarfield.cpp(105): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>cStarfield.cpp(109): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         cTexture.cpp
+         Compiling...
+         cTriangle.cpp
+         cWNDManager.cpp
+         GameConstants.cpp
+         Studentmain.cpp
+     1>Studentmain.cpp(113): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>Studentmain.cpp(137): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>Studentmain.cpp(147): warning C4244: 'argument' : conversion from 'const int' to 'GLfloat', possible loss of data
+     1>Studentmain.cpp(237): warning C4305: 'argument' : truncation from 'int' to 'ALboolean'
+     1>Studentmain.cpp(237): warning C4309: 'argument' : truncation of constant value
+         tardisWarsGame.cpp
+         windowOGL.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\Coursework.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\Coursework.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\Coursework.lib" /MACHINE:X86 /SAFESEH Release\cCamera.obj
+         Release\cColours.obj
+         Release\cCube.obj
+         Release\cEnemy.obj
+         Release\cFont.obj
+         Release\cFontMgr.obj
+         Release\cInputMgr.obj
+         Release\cLaser.obj
+         Release\cLight.obj
+         Release\cMaterial.obj
+         Release\cModel.obj
+         Release\cModelLoader.obj
+         Release\cPlayer.obj
+         Release\cPyramid.obj
+         Release\cShapes.obj
+         Release\cSound.obj
+         Release\cSoundMgr.obj
+         Release\cSphere.obj
+         Release\cStarfield.obj
+         Release\cTexture.obj
+         Release\cTriangle.obj
+         Release\cWNDManager.obj
+         Release\GameConstants.obj
+         Release\Studentmain.obj
+         Release\tardisWarsGame.obj
+         Release\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         "Libraries\glm-0.3.2Lib.lib"
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+     1>glm-0.3.2Lib.lib(glm.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glm-0.3.2Lib.lib(glm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm.obj)' or at 'C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glmimg.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glmimg.obj)' or at 'C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\vc120.pdb'; linking object as if no debug info
+     1>glm-0.3.2Lib.lib(glm_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glm-0.3.2Lib.lib(glm_util.obj)' or at 'C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\vc120.pdb'; linking object as if no debug info
+         Coursework.vcxproj -> C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Release\Coursework.exe
+     1>Done Building Project "C:\Users\Michael\Desktop\CourseworkGP\Coursework\Coursework\Coursework\Coursework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.90
